@@ -93,3 +93,8 @@ input_data_array_reshape = input_data_array.reshape(1,-1)
 prediction = model.predict(input_data_array_reshape)
 
 print(prediction)
+
+if prediction[0] == 0:
+  print("The Person Dose not have a Heart Disease")
+else:
+  print("The Person have a Heart Disease")
