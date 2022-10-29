@@ -17,7 +17,7 @@ from sklearn.metrics import accuracy_score
 
 """2. Load DataSet"""
 
-df = pd.read_csv('/content/heart_disease_data.csv')
+df = pd.read_csv('heart_disease_data.csv')
 
 """3. Analyzing Data"""
 
